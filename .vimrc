@@ -2,7 +2,7 @@
 "set number
 "set numberwidth=1
 set background=dark
-set vb                    " Visual bell
+set vb                      " Visual bell
 
 """ Code Style Options
 set showmatch
@@ -23,10 +23,10 @@ set nobackup
 set nowritebackup
 
 """ Key remappings
-"imap ii <Esc>             " Press 'hh' to get out of insert mode
+"imap ii <Esc>              " Press 'hh' to get out of insert mode
 
 """ Key Commands
-"map <F5> {!}fmt          " Format paragraph
+"map <F5> {!}fmt            " Format paragraph
 
 """ Don't use arrow keys to navigate
 "noremap <Up> <nop>
