@@ -1,7 +1,7 @@
 """ Basic Display Options
 "set number
 "set numberwidth=1
-set background=dark
+"set background=dark
 set vb                      " Visual bell
 
 """ Code Style Options
