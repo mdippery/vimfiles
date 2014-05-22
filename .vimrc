@@ -1,5 +1,6 @@
 """ Basic Display Options
 set vb
+set nowrap
 
 """ Code Style Options
 set showmatch
