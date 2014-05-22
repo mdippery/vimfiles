@@ -4,6 +4,10 @@ set vb
 """ Code Style Options
 set showmatch
 syntax on
+filetype plugin indent on
+
+""" Pathogen
+execute pathogen#infect()
 
 """ Tabbing Options
 set tabstop=8
