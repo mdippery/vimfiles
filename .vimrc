@@ -2,6 +2,16 @@
 set vb
 set nowrap
 
+""" Backup Options
+set nobackup
+set nowritebackup
+
+""" Remap navigation keys so right hand stays on home row
+noremap ; l
+noremap l k
+noremap k j
+noremap j h
+
 """ Code Style Options
 set showmatch
 syntax on
@@ -17,13 +27,3 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set shiftround
-
-""" Backup Options
-set nobackup
-set nowritebackup
-
-""" Remap navigation keys so right hand stays on home row
-noremap ; l
-noremap l k
-noremap k j
-noremap j h
