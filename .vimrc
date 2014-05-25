@@ -27,3 +27,7 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set shiftround
+
+""" Treat Gemfiles and Vagranfiles as Ruby
+autocmd BufNewFile,BufRead Gemfile set filetype=ruby
+autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
