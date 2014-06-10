@@ -25,3 +25,6 @@ set shiftround
 """ Treat Gemfiles and Vagranfiles as Ruby
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
+
+""" Set line wrapping for HTML files
+autocmd BufNewFile,BufRead *.html setlocal wrap linebreak
