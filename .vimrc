@@ -6,14 +6,6 @@ set nowrap
 set nobackup
 set nowritebackup
 
-""" Code Style Options
-set showmatch
-syntax on
-filetype plugin indent on
-
-""" Pathogen
-execute pathogen#infect()
-
 """ Tabbing Options
 set tabstop=8
 set softtabstop=4
@@ -21,6 +13,14 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set shiftround
+
+""" Code Style Options
+set showmatch
+syntax on
+filetype plugin indent on
+
+""" Pathogen
+execute pathogen#infect()
 
 """ Treat Gemfiles and Vagranfiles as Ruby
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
