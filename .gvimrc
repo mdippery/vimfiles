@@ -10,6 +10,6 @@ if (match(system("hostname"), "Corellia") != -1)
     set lines=38
     set guifont=Sauce\ Code\ Powerline:h14
 else
-    set lines=48
+    set lines=64
     set guifont=Sauce\ Code\ Powerline:h18
 endif
