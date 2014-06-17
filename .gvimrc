@@ -1,4 +1,5 @@
 set number
+set cursorline
 set lines=48 columns=96
 let &colorcolumn=join(range(81,999),",")
 
