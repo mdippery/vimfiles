@@ -1,8 +1,15 @@
 set number
 set cursorline
-set lines=48 columns=96
+set columns=96
 let &colorcolumn=join(range(81,999),",")
 
-set guifont=Sauce\ Code\ Powerline:h18
 set background=dark
 colors solarized
+
+if (match(system("hostname"), "Corellia") != -1)
+    set lines=38
+    set guifont=Sauce\ Code\ Powerline:h14
+else
+    set lines=48
+    set guifont=Sauce\ Code\ Powerline:h18
+endif
