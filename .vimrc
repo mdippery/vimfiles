@@ -18,6 +18,7 @@ set shiftround
 set showmatch
 syntax on
 filetype plugin indent on
+set tags+=.tags
 
 """ Pathogen
 execute pathogen#infect()
