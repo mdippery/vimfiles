@@ -27,5 +27,6 @@ execute pathogen#infect()
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
 
-""" Set line wrapping for HTML files
+""" Set custom options for HTML files
 autocmd BufNewFile,BufRead *.html setlocal wrap linebreak
+autocmd BufNewFile,BufRead *.html setlocal softtabstop=2 shiftwidth=2
