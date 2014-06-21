@@ -28,5 +28,4 @@ autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
 
 """ Set custom options for HTML files
-autocmd BufNewFile,BufRead *.html setlocal wrap linebreak
-autocmd BufNewFile,BufRead *.html setlocal softtabstop=2 shiftwidth=2
+autocmd FileType html setlocal wrap linebreak softtabstop=2 shiftwidth=2
