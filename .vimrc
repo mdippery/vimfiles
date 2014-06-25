@@ -32,3 +32,8 @@ autocmd FileType html setlocal wrap linebreak softtabstop=2 shiftwidth=2
 
 """ Set custom options for SSH config files
 autocmd FileType sshconfig setlocal shiftwidth=8 softtabstop=8 noexpandtab
+
+""" Disable Mac keyboard navigation shortcuts
+if has("gui_macvim")
+    let macvim_skip_cmd_opt_movement=1
+endif
