@@ -6,6 +6,9 @@ set nowrap
 set nobackup
 set nowritebackup
 
+""" Automatically reload externally-edited files
+set autoread
+
 """ Tabbing Options
 set tabstop=8
 set softtabstop=4
