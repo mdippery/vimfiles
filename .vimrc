@@ -26,6 +26,9 @@ set tags+=.tags
 """ Pathogen
 execute pathogen#infect()
 
+""" jj to enter normal mode from insert mode
+inoremap jj <Esc>
+
 """ Treat Gemfiles and Vagranfiles as Ruby
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
