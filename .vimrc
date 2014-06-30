@@ -1,6 +1,7 @@
 """ Basic Display Options
 set vb
 set nowrap
+set hidden
 
 """ Backup Options
 set nobackup
