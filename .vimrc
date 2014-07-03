@@ -1,3 +1,35 @@
+" ================================
+" Vim plugin configuration
+" ================================
+
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Let Vundle manage Vundle - required!
+Plugin 'gmarik/Vundle.vim'
+
+" My plugins
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'guns/vim-clojure-static'
+Plugin 'jeetsukumaran/vim-nefertiti'
+Plugin 'junegunn/seoul256.vim'
+Plugin 'raichoo/haskell-vim'
+Plugin 'reedes/vim-colors-pencil'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
+Plugin 'vim-scripts/nginx.vim'
+Plugin 'vim-scripts/peaksea'
+
+call vundle#end()
+
+" End Vim plugin configuration
+""""""""""""""""""""""""""""""""""
+
+
 """ Basic Display Options
 set vb
 set nowrap
@@ -23,9 +55,6 @@ set showmatch
 syntax on
 filetype plugin indent on
 set tags+=.tags
-
-""" Pathogen
-execute pathogen#infect()
 
 """ jj to enter normal mode from insert mode
 inoremap jj <Esc>
