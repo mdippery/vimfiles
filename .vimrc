@@ -71,6 +71,9 @@ autocmd BufNewFile,BufRead *.podspec set filetype=ruby
 autocmd FileType html setlocal wrap linebreak softtabstop=2 shiftwidth=2
 autocmd FileType htmldjango setlocal wrap linebreak softtabstop=2 shiftwidth=2
 
+""" Set custom options for Ruby files
+autocmd FileType ruby setlocal shiftwidth=2 softtabstop=2
+
 """ Set custom options for SSH config files
 autocmd FileType sshconfig setlocal shiftwidth=8 softtabstop=8 noexpandtab
 
