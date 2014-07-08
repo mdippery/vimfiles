@@ -38,6 +38,8 @@ set nowrap
 set hidden
 
 """ Backup Options
+set backupdir=/tmp
+set directory=/tmp
 set nobackup
 set nowritebackup
 
