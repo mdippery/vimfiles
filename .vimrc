@@ -13,6 +13,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " My plugins
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'elzr/vim-json'
 Plugin 'guns/vim-clojure-static'
 Plugin 'jeetsukumaran/vim-nefertiti'
 Plugin 'junegunn/seoul256.vim'
