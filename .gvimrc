@@ -4,7 +4,7 @@ set columns=96
 let &colorcolumn=join(range(81,999),",")
 
 set background=dark
-colors solarized
+colors zen-and-art
 
 if (match(system("hostname"), "Corellia") != -1)
     set lines=38
