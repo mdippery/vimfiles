@@ -11,6 +11,7 @@ hi Cursor  guifg=NONE guibg=#a7a7a7 gui=NONE
 hi Visual  guifg=NONE guibg=#404245 gui=NONE
 hi CursorLine  guifg=NONE guibg=#201e1e gui=NONE
 hi CursorColumn  guifg=NONE guibg=#201e1e gui=NONE
+hi ColorColumn guifg=NONE guibg=#201e1e gui=NONE
 hi LineNr  guifg=#62645d guibg=#191717 gui=NONE
 hi VertSplit  guifg=#353432 guibg=#353432 gui=NONE
 hi MatchParen  guifg=#ae5825 guibg=NONE gui=NONE
@@ -22,6 +23,7 @@ hi IncSearch  guifg=NONE guibg=#283138 gui=NONE
 hi Search  guifg=NONE guibg=#283138 gui=NONE
 hi Directory  guifg=#86453a guibg=NONE gui=NONE
 hi Folded  guifg=#333b40 guibg=#191717 gui=NONE
+hi Question guifg=#c3172b guibg=NONE gui=NONE
 
 hi Normal  guifg=#abb1a3 guibg=#191717 gui=NONE
 hi Boolean  guifg=#86453a guibg=NONE gui=NONE
