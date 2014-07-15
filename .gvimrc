@@ -1,6 +1,7 @@
 set number
 set cursorline
 set columns=96
+set guioptions-=r
 let &colorcolumn=join(range(81,999),",")
 
 set background=dark
