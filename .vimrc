@@ -28,6 +28,14 @@ syntax on
 filetype plugin indent on
 set tags+=.tags
 
+""" Improved split creation/navigation
+set splitbelow
+set splitright
+nnoremap <C-j> <C-w><C-j>
+nnoremap <C-k> <C-w><C-k>
+nnoremap <C-l> <C-w><C-l>
+nnoremap <C-h> <C-w><C-h>
+
 """ jj to enter normal mode from insert mode
 inoremap jj <Esc>
 
