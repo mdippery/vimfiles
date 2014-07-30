@@ -4,6 +4,7 @@ source ~/.vim/vundle.vim
 set vb
 set nowrap
 set hidden
+set laststatus=0
 
 """ Backup Options
 set backupdir=/tmp
