@@ -1,5 +1,6 @@
 set number
 set cursorline
+set laststatus=2
 set lines=999
 set columns=96
 set guioptions-=r

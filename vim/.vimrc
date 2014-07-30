@@ -43,3 +43,9 @@ inoremap jj <Esc>
 if has("gui_macvim")
     let macvim_skip_cmd_opt_movement=1
 endif
+
+""" Lightline configuration
+""" (I only use lightline in mvim/gvim, but
+"""  the config doesn't work unless I do it
+"""  here.)
+source ~/.vim/lightline.vim
