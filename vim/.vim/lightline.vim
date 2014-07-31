@@ -6,8 +6,6 @@ let g:lightline = {
     \ 'component_function': {
     \   'mode': 'LLMode',
     \ },
-    \ 'separator': { 'left': "", 'right': "" },
-    \ 'subseparator': { 'left': "", 'right': "" },
     \ }
 
 function! LLMode()
