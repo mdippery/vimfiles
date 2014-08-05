@@ -1,5 +1,6 @@
 set number
 set cursorline
+set lines=999
 set columns=96
 set guioptions-=r
 set guioptions-=L
@@ -9,9 +10,7 @@ set background=dark
 colors solarized
 
 if (match(system("hostname"), "Corellia") != -1)
-    set lines=38
     set guifont=Sauce\ Code\ Powerline:h14
 else
-    set lines=64
     set guifont=Sauce\ Code\ Powerline:h18
 endif
