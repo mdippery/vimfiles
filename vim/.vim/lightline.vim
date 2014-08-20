@@ -1,5 +1,5 @@
 let g:lightline = {
-    \ 'colorscheme': 'solarized_dark',
+    \ 'colorscheme': 'powerline',
     \ 'active': {
     \   'right': [ ['lineinfo'], ['percent'], ['filetype'] ],
     \ },

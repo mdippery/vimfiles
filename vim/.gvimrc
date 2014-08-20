@@ -8,7 +8,7 @@ set guioptions-=L
 let &colorcolumn=join(range(81,999),",")
 
 set background=dark
-colors solarized
+colors badwolf
 
 if (match(system("hostname"), "Corellia") != -1)
     set guifont=Sauce\ Code\ Powerline:h14
