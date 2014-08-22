@@ -40,6 +40,9 @@ nnoremap <C-h> <C-w><C-h>
 """ jj to enter normal mode from insert mode
 inoremap jj <Esc>
 
+""" Tap space to center on current line
+nnoremap <Space> zz
+
 """ Disable Mac keyboard navigation shortcuts
 if has("gui_macvim")
     let macvim_skip_cmd_opt_movement=1
