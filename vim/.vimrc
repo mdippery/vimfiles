@@ -43,6 +43,10 @@ inoremap jj <Esc>
 """ Tap space to center on current line
 nnoremap <Space> zz
 
+""" Keep selection region when indenting
+vnoremap < <gv
+vnoremap > >gv
+
 """ Disable Mac keyboard navigation shortcuts
 if has("gui_macvim")
     let macvim_skip_cmd_opt_movement=1
