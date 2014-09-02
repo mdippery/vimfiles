@@ -7,11 +7,11 @@ set guioptions-=r
 set guioptions-=L
 let &colorcolumn=join(range(81,999),",")
 
+set guifont=Sauce\ Code\ Powerline:h14
 set background=dark
 colors badwolf
 
-if (match(system("hostname"), "Corellia") != -1)
-    set guifont=Sauce\ Code\ Powerline:h14
-else
+if (match(system("hostname"), "Coruscant") != -1)
+    set columns=144
     set guifont=Sauce\ Code\ Powerline:h18
 endif
