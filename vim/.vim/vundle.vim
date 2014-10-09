@@ -27,5 +27,6 @@ Plugin 'tpope/vim-markdown'
 Plugin 'tpope/vim-surround'
 Plugin 'vim-scripts/nginx.vim'
 Plugin 'vim-scripts/peaksea'
+Plugin 'whatyouhide/vim-gotham'
 
 call vundle#end()
