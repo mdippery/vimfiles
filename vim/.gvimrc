@@ -14,4 +14,6 @@ colors badwolf
 if (match(system("hostname"), "Coruscant") != -1)
     set columns=144
     set guifont=Sauce\ Code\ Powerline:h18
+elseif (match(system("hostname"), "pivotal-guest") != -1)
+    set columns=120
 endif
