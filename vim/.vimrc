@@ -40,6 +40,9 @@ nnoremap <C-h> <C-w><C-h>
 """ jj to enter normal mode from insert mode
 inoremap jj <Esc>
 
+""" K to insert a new line
+nnoremap K r<CR><Esc>
+
 """ Tap space to center on current line
 nnoremap <Space> zz
 
