@@ -7,8 +7,8 @@ set hidden
 set laststatus=0
 
 """ Backup Options
-set backupdir=/tmp
-set directory=/tmp
+set backupdir=$HOME/.vim/backup
+set directory=$HOME/.vim/swap
 set nobackup
 set nowritebackup
 
