@@ -50,13 +50,14 @@ nnoremap <Space> zz
 vnoremap < <gv
 vnoremap > >gv
 
-""" Disable Mac keyboard navigation shortcuts
 if has("gui_macvim")
+    """ Disable Mac keyboard navigation shortcuts
     let macvim_skip_cmd_opt_movement=1
 endif
 
-""" Lightline configuration
-""" (I only use lightline in mvim/gvim, but
-"""  the config doesn't work unless I do it
-"""  here.)
-source ~/.vim/lightline.vim
+""" These settings should only be run in a GUI environment
+""" but need to be sourced before ~/.gvimrc.
+if has("gui_running")
+    """ Lightline configuration
+    source ~/.vim/lightline.vim
+endif
