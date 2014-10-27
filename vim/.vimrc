@@ -29,10 +29,6 @@ syntax on
 filetype plugin indent on
 set tags+=.tags
 
-""" Use space as leader key
-nnoremap <Space> <Nop>
-let mapleader = "\<Space>"
-
 """ Improved split creation/navigation
 set splitbelow
 set splitright
@@ -46,6 +42,9 @@ inoremap jj <Esc>
 
 """ K to insert a new line
 nnoremap K r<CR><Esc>
+
+""" Tap space to center on current line
+nnoremap <Space> zz
 
 """ Keep selection region when indenting
 vnoremap < <gv
