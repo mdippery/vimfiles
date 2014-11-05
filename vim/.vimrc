@@ -29,6 +29,9 @@ syntax on
 filetype plugin indent on
 set tags+=.tags
 
+""" jj to enter normal mode from insert mode
+inoremap jj <Esc>
+
 """ Improved split creation/navigation
 set splitbelow
 set splitright
@@ -37,8 +40,11 @@ nnoremap <C-k> <C-w><C-k>
 nnoremap <C-l> <C-w><C-l>
 nnoremap <C-h> <C-w><C-h>
 
-""" jj to enter normal mode from insert mode
-inoremap jj <Esc>
+""" Improved buffer navigation
+nnoremap gt :bn<CR>
+nnoremap gT :bp<CR>
+nnoremap Q  :b#<CR>
+nnoremap <Leader>x :bd<CR>
 
 """ K to insert a new line
 nnoremap K r<CR><Esc>
