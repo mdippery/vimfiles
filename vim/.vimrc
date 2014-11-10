@@ -46,6 +46,9 @@ nnoremap gT :bp<CR>
 nnoremap Q  :b#<CR>
 nnoremap <Leader>x :bd<CR>
 
+""" yank to end of line
+nnoremap Y y$
+
 """ K to insert a new line
 nnoremap K r<CR><Esc>
 
