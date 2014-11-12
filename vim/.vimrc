@@ -44,7 +44,7 @@ nnoremap <C-h> <C-w><C-h>
 nnoremap gt :bn<CR>
 nnoremap gT :bp<CR>
 nnoremap Q  :b#<CR>
-nnoremap <Leader>x :bd<CR>
+nnoremap <Leader>w :bd<CR>
 
 """ yank to end of line
 nnoremap Y y$
