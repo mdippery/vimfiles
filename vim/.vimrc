@@ -52,8 +52,8 @@ nnoremap Y y$
 """ K to insert a new line
 nnoremap K r<CR><Esc>
 
-""" Tap space to center on current line
-nnoremap <Space> zz
+""" Tap space to enter commands
+nnoremap <Space> :
 
 """ Keep selection region when indenting
 vnoremap < <gv
