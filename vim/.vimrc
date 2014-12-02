@@ -1,41 +1,56 @@
 source ~/.vim/vundle.vim
 
-""" Basic Display Options
-set vb
-set nowrap
-set hidden
-set laststatus=0
-
-""" Backup Options
-set directory=$HOME/.vim/swap
-set backupdir=$HOME/.vim/backup
-set noswapfile
-set nobackup
-set nowritebackup
-
-""" Automatically reload externally-edited files
-set autoread
-
-""" Tabbing Options
-set tabstop=8
-set softtabstop=4
-set shiftwidth=4
-set expandtab
-set autoindent
-set shiftround
-
-""" Code Style Options
-set showmatch
 syntax on
 filetype plugin indent on
-set tags+=.tags
+
+set vb                              " use visual bell
+set nowrap                          " disable line wrapping
+set hidden                          " hides buffers instead of closing them
+set laststatus=0                    " disable status line
+
+set directory=$HOME/.vim/swap       " set swap directory
+set backupdir=$HOME/.vim/backup     " set backup directory
+set noswapfile                      " disable swap file creation
+set nobackup                        " disable backup creation
+set nowritebackup                   " disable atomic saves
+
+set autoread                        " auto reload externally-edited files
+
+set tabstop=8                       " draw tabs with 8 spaces
+set softtabstop=4                   " set soft tab of 4 spaces
+set shiftwidth=4                    " use 4 spaces for auto-indents
+set expandtab                       " use spaces instead of tabs
+set autoindent                      " autoindent code
+set shiftround                      " indent to next tab stop multiple
+
+set showmatch                       " show matching brackets
+set tags+=.tags                     " point ctags to ./.tags file
+
+set splitbelow                      " open horizontal split below current
+set splitright                      " open vertical split to right of current
+
+
+
+" Key Mappings
+" ------------------------------------------------------------
 
 """ jj to enter normal mode from insert mode
 inoremap jj <Esc>
 
+""" Tap space to enter commands
+nnoremap <Space> :
+
+""" yank to end of line
+nnoremap Y y$
+
+""" K to insert a new line
+nnoremap K r<CR><Esc>
+
+""" Keep selection region when indenting
+vnoremap < <gv
+vnoremap > >gv
+
 """ Improved split creation/navigation
-set splitbelow
-set splitright
 nnoremap <C-j> <C-w><C-j>
 nnoremap <C-k> <C-w><C-k>
 nnoremap <C-l> <C-w><C-l>
@@ -47,27 +62,19 @@ nnoremap gT :bp<CR>
 nnoremap Q  :b#<CR>
 nnoremap <Leader>w :bd<CR>
 
-""" yank to end of line
-nnoremap Y y$
 
-""" K to insert a new line
-nnoremap K r<CR><Esc>
 
-""" Tap space to enter commands
-nnoremap <Space> :
-
-""" Keep selection region when indenting
-vnoremap < <gv
-vnoremap > >gv
-
-if has("gui_macvim")
-    """ Disable Mac keyboard navigation shortcuts
-    let macvim_skip_cmd_opt_movement=1
-endif
+" GUI Settings
+" ------------------------------------------------------------
 
 """ These settings should only be run in a GUI environment
 """ but need to be sourced before ~/.gvimrc.
 if has("gui_running")
     """ Lightline configuration
     source ~/.vim/lightline.vim
+endif
+
+if has("gui_macvim")
+    """ Disable Mac keyboard navigation shortcuts
+    let macvim_skip_cmd_opt_movement=1
 endif
