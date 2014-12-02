@@ -67,11 +67,28 @@ nnoremap <Leader>w :bd<CR>
 " GUI Settings
 " ------------------------------------------------------------
 
-""" These settings should only be run in a GUI environment
-""" but need to be sourced before ~/.gvimrc.
 if has("gui_running")
-    """ Lightline configuration
     source ~/.vim/lightline.vim
+
+    set lines=999
+    set columns=96
+    let &colorcolumn=join(range(81,999),",")
+
+    set number                      " show line numbers
+    set cursorline                  " highlight current line
+    set laststatus=2                " show status bar
+
+    set guioptions-=r               " remove right scrollbar
+    set guioptions-=L               " remove left scrollbar
+
+    set guifont=Sauce\ Code\ Powerline:h14
+    set background=dark
+    colors badwolf
+
+    if (match(system("hostname"), "Coruscant") != -1)
+        set columns=144
+        set guifont=Sauce\ Code\ Powerline:h18
+    endif
 endif
 
 if has("gui_macvim")
