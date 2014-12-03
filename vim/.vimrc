@@ -43,6 +43,10 @@ nnoremap <Space> :
 """ yank to end of line
 nnoremap Y y$
 
+""" ( and ) to move between matching brackets
+nnoremap ( %
+nnoremap ) %
+
 """ K to insert a new line
 nnoremap K r<CR><Esc>
 
