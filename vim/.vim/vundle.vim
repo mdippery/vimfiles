@@ -33,5 +33,6 @@ Plugin 'tpope/vim-vinegar'
 Plugin 'vim-scripts/nginx.vim'
 Plugin 'vim-scripts/peaksea'
 Plugin 'whatyouhide/vim-gotham'
+Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}
 
 call vundle#end()
