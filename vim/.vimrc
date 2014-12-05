@@ -54,6 +54,9 @@ nnoremap K r<CR><Esc>
 vnoremap < <gv
 vnoremap > >gv
 
+""" Toggle between relative and absolute numbers
+nnoremap <C-n> :call LineNumberToggle()<CR>
+
 """ Improved split creation/navigation
 nnoremap <C-j> <C-w><C-j>
 nnoremap <C-k> <C-w><C-k>
@@ -65,6 +68,19 @@ nnoremap gt :bn<CR>
 nnoremap gT :bp<CR>
 nnoremap Q  :b#<CR>
 nnoremap <Leader>w :bd<CR>
+
+
+
+" Functions
+" ------------------------------------------------------------
+
+function! LineNumberToggle()
+    if (&relativenumber == 1)
+        set number
+    else
+        set relativenumber
+    endif
+endfunc
 
 
 
