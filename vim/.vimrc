@@ -76,6 +76,7 @@ nnoremap <Leader>w :bd<CR>
 
 function! LineNumberToggle()
     if (&relativenumber == 1)
+        set norelativenumber
         set number
     else
         set relativenumber
