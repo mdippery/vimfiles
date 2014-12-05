@@ -79,6 +79,7 @@ function! LineNumberToggle()
         set norelativenumber
         set number
     else
+        set nonumber
         set relativenumber
     endif
 endfunc
