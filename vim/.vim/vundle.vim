@@ -9,6 +9,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " My plugins
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'chase/vim-ansible-yaml'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'elzr/vim-json'
 Plugin 'freeo/vim-kalisi'
