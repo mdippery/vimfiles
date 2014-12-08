@@ -98,12 +98,18 @@ if has("gui_running")
     set columns=96
     let &colorcolumn=join(range(81,999),",")
 
-    set number                      " show line numbers
+    set relativenumber              " show line numbers
     set cursorline                  " highlight current line
     set laststatus=2                " show status bar
 
     set guioptions-=r               " remove right scrollbar
     set guioptions-=L               " remove left scrollbar
+
+    " Show absolute line numbers in Insert mode
+    autocmd InsertEnter * :set norelativenumber
+    autocmd InsertEnter * :set number
+    autocmd InsertLeave * :set nonumber
+    autocmd InsertLeave * :set relativenumber
 
     set guifont=Sauce\ Code\ Powerline:h14
     set background=dark
