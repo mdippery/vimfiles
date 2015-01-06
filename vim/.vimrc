@@ -60,9 +60,10 @@ nnoremap <C-l> <C-w><C-l>
 nnoremap <C-h> <C-w><C-h>
 
 """ Improved buffer navigation
-nnoremap gt :bn<CR>
-nnoremap gT :bp<CR>
-nnoremap Q  :b#<CR>
+nnoremap H :bn<CR>
+nnoremap L :bp<CR>
+nnoremap Q :b#<CR>
+nnoremap ; :ls<CR>
 nnoremap <Leader>w :bd<CR>
 
 
