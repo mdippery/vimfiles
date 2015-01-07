@@ -8,6 +8,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " My plugins
+Plugin 'a.vim'
 Plugin 'ajh17/Spacegray.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'chase/vim-ansible-yaml'
