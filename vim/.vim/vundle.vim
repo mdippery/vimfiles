@@ -14,6 +14,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " My plugins
 Plugin 'a.vim'
+Plugin 'nginx.vim'
 Plugin 'chase/vim-ansible-yaml'
 Plugin 'darfink/vim-plist'
 Plugin 'derekwyatt/vim-scala'
@@ -32,7 +33,6 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-markdown'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-vinegar'
-Plugin 'vim-scripts/nginx.vim'
 
 " Color themes
 Plugin 'ajh17/Spacegray.vim'
