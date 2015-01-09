@@ -13,16 +13,16 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " General plugins
-Plugin 'a.vim'
-Plugin 'godlygeek/tabular'
-Plugin 'itchyny/lightline.vim'
-Plugin 'jamessan/vim-gnupg'
-Plugin 'mileszs/ack.vim'
-Plugin 'rhysd/clever-f.vim'
-Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-vinegar'
+Plugin 'a.vim'                 " Switch between header and implementation files
+Plugin 'godlygeek/tabular'     " Align lines of text
+Plugin 'itchyny/lightline.vim' " Display information in status bar
+Plugin 'jamessan/vim-gnupg'    " Encrypt/decrypt files
+Plugin 'mileszs/ack.vim'       " Use ack from Vim
+Plugin 'rhysd/clever-f.vim'    " Saner f/F/t/T mappings
+Plugin 'tpope/vim-commentary'  " Quickly (un)comment blocks of text
+Plugin 'tpope/vim-fugitive'    " Use git from Vim
+Plugin 'tpope/vim-surround'    " Surround text in other text
+Plugin 'tpope/vim-vinegar'     " Enhance netrw
 
 " Language plugins
 Plugin 'nginx.vim'
