@@ -12,27 +12,29 @@ call vundle#begin()
 " Let Vundle manage Vundle - required!
 Plugin 'gmarik/Vundle.vim'
 
-" My plugins
+" General plugins
 Plugin 'a.vim'
+Plugin 'godlygeek/tabular'
+Plugin 'itchyny/lightline.vim'
+Plugin 'jamessan/vim-gnupg'
+Plugin 'mileszs/ack.vim'
+Plugin 'rhysd/clever-f.vim'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-vinegar'
+
+" Language plugins
 Plugin 'nginx.vim'
 Plugin 'chase/vim-ansible-yaml'
 Plugin 'darfink/vim-plist'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'elzr/vim-json'
 Plugin 'elixir-lang/vim-elixir'
-Plugin 'godlygeek/tabular'
 Plugin 'guns/vim-clojure-static'
-Plugin 'itchyny/lightline.vim'
-Plugin 'jamessan/vim-gnupg'
 Plugin 'Keithbsmiley/swift.vim'
-Plugin 'mileszs/ack.vim'
 Plugin 'raichoo/haskell-vim'
-Plugin 'rhysd/clever-f.vim'
-Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-markdown'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-vinegar'
 
 " Color themes
 Plugin 'ajh17/Spacegray.vim'
