@@ -109,11 +109,6 @@ if has("gui_running")
     set guifont=Sauce\ Code\ Powerline:h14
     set background=dark
     colors badwolf
-
-    if (match(system("hostname"), "Coruscant") != -1)
-        set columns=144
-        set guifont=Sauce\ Code\ Powerline:h18
-    endif
 endif
 
 if has("gui_macvim")
