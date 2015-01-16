@@ -123,6 +123,13 @@ if has("gui_running")
     if system("uname") == "Linux\n"
         set guioptions-=m           " remove menu
         set guifont=Source\ Code\ Pro\ Medium\ 12
+
+        " Lines and columns weren't being set correctly
+        " (under CentOS 6/KDE4) unless the values were
+        " set explicitly; otherwise, it takes on the
+        " dimensions of the terminal it was launched from.
+        set lines=54
+        set columns=96
     endif
 endif
 
