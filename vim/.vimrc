@@ -71,15 +71,17 @@ nnoremap <Leader>w :bd<CR>
 " Functions
 " ------------------------------------------------------------
 
-function! LineNumberToggle()
-    if (&relativenumber == 1)
-        set norelativenumber
-        set number
-    else
-        set nonumber
-        set relativenumber
-    endif
-endfunc
+if exists('+relativenumber')
+    function! LineNumberToggle()
+        if (&relativenumber == 1)
+            set norelativenumber
+            set number
+        else
+            set nonumber
+            set relativenumber
+        endif
+    endfunc
+endif
 
 
 
@@ -91,20 +93,25 @@ if has("gui_running")
 
     set lines=999
     set columns=96
-    let &colorcolumn=join(range(81,999),",")
 
-    set relativenumber              " show line numbers
+    if exists('+colorcolumn')
+        let &colorcolumn=join(range(81,999),",")
+    endif
+
     set cursorline                  " highlight current line
     set laststatus=2                " show status bar
 
     set guioptions-=r               " remove right scrollbar
     set guioptions-=L               " remove left scrollbar
 
-    " Show absolute line numbers in Insert mode
-    autocmd InsertEnter * :set norelativenumber
-    autocmd InsertEnter * :set number
-    autocmd InsertLeave * :set nonumber
-    autocmd InsertLeave * :set relativenumber
+    if exists('+relativenumber')
+        set relativenumber          " show line numbers
+        " Show absolute line numbers in Insert mode
+        autocmd InsertEnter * :set norelativenumber
+        autocmd InsertEnter * :set number
+        autocmd InsertLeave * :set nonumber
+        autocmd InsertLeave * :set relativenumber
+    endif
 
     set guifont=Sauce\ Code\ Powerline:h14
     set background=dark
