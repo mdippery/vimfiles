@@ -101,6 +101,7 @@ if has("gui_running")
     set cursorline                  " highlight current line
     set laststatus=2                " show status bar
 
+    set guioptions-=T               " remove toolbar
     set guioptions-=r               " remove right scrollbar
     set guioptions-=L               " remove left scrollbar
 
@@ -116,6 +117,11 @@ if has("gui_running")
     set guifont=Sauce\ Code\ Powerline:h14
     set background=dark
     colors badwolf
+
+    if system("uname") == "Linux\n"
+        set guioptions-=m           " remove menu
+        set guifont=Source\ Code\ Pro\ Medium\ 12
+    endif
 endif
 
 if has("gui_macvim")
