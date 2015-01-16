@@ -112,6 +112,8 @@ if has("gui_running")
         autocmd InsertEnter * :set number
         autocmd InsertLeave * :set nonumber
         autocmd InsertLeave * :set relativenumber
+    else
+        set number                  " show line numbers
     endif
 
     set guifont=Sauce\ Code\ Powerline:h14
