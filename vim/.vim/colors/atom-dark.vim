@@ -99,7 +99,7 @@ elseif has("gui_running") || (&t_Co == 256 && (&term ==# "xterm" || &term =~# "^
     CSAHi vimSynMatchRegion term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi vimSynMtchCchar term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi vimSynMtchGroup term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
-    CSAHi ColorColumn term=reverse cterm=NONE ctermbg=252 ctermfg=fg gui=NONE guibg=lightgray guifg=fg
+    CSAHi ColorColumn term=reverse cterm=NONE ctermbg=252 ctermfg=fg gui=NONE guibg=#232526 guifg=fg
     CSAHi MatchParen term=reverse cterm=NONE ctermbg=238 ctermfg=188 gui=NONE guibg=#444444 guifg=#B7B9B8
     CSAHi Comment term=bold cterm=NONE ctermbg=bg ctermfg=244 gui=NONE guibg=bg guifg=#7C7C7C
     CSAHi Constant term=underline cterm=NONE ctermbg=bg ctermfg=151 gui=NONE guibg=bg guifg=#99CC99
@@ -419,7 +419,7 @@ elseif has("gui_running") || (&t_Co == 256 && (&term ==# "xterm" || &term =~# "^
     CSAHi vimSynMatchRegion term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi vimSynMtchCchar term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi vimSynMtchGroup term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
-    CSAHi ColorColumn term=reverse cterm=NONE ctermbg=231 ctermfg=fg gui=NONE guibg=lightgray guifg=fg
+    CSAHi ColorColumn term=reverse cterm=NONE ctermbg=231 ctermfg=fg gui=NONE guibg=#232526 guifg=fg
     CSAHi MatchParen term=reverse cterm=NONE ctermbg=238 ctermfg=188 gui=NONE guibg=#444444 guifg=#B7B9B8
     CSAHi Comment term=bold cterm=NONE ctermbg=bg ctermfg=145 gui=NONE guibg=bg guifg=#7C7C7C
     CSAHi Constant term=underline cterm=NONE ctermbg=bg ctermfg=194 gui=NONE guibg=bg guifg=#99CC99
@@ -739,7 +739,7 @@ elseif has("gui_running") || &t_Co == 256
     CSAHi vimSynMatchRegion term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi vimSynMtchCchar term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi vimSynMtchGroup term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
-    CSAHi ColorColumn term=reverse cterm=NONE ctermbg=252 ctermfg=fg gui=NONE guibg=lightgray guifg=fg
+    CSAHi ColorColumn term=reverse cterm=NONE ctermbg=252 ctermfg=fg gui=NONE guibg=#232526 guifg=fg
     CSAHi MatchParen term=reverse cterm=NONE ctermbg=238 ctermfg=145 gui=NONE guibg=#444444 guifg=#B7B9B8
     CSAHi Comment term=bold cterm=NONE ctermbg=bg ctermfg=244 gui=NONE guibg=bg guifg=#7C7C7C
     CSAHi Constant term=underline cterm=NONE ctermbg=bg ctermfg=114 gui=NONE guibg=bg guifg=#99CC99
@@ -1059,7 +1059,7 @@ elseif has("gui_running") || &t_Co == 88
     CSAHi vimSynMatchRegion term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi vimSynMtchCchar term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
     CSAHi vimSynMtchGroup term=NONE cterm=NONE ctermbg=bg ctermfg=fg gui=NONE guibg=bg guifg=fg
-    CSAHi ColorColumn term=reverse cterm=NONE ctermbg=86 ctermfg=fg gui=NONE guibg=lightgray guifg=fg
+    CSAHi ColorColumn term=reverse cterm=NONE ctermbg=86 ctermfg=fg gui=NONE guibg=#232526 guifg=fg
     CSAHi MatchParen term=reverse cterm=NONE ctermbg=80 ctermfg=85 gui=NONE guibg=#444444 guifg=#B7B9B8
     CSAHi Comment term=bold cterm=NONE ctermbg=bg ctermfg=82 gui=NONE guibg=bg guifg=#7C7C7C
     CSAHi Constant term=underline cterm=NONE ctermbg=bg ctermfg=41 gui=NONE guibg=bg guifg=#99CC99
