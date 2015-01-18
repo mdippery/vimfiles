@@ -5,7 +5,8 @@ To install:
     $ cd .vimfiles
     $ stow vim
 
-This Vim configuration also relies on [Vundle][vundle]. To install Vundle:
+This Vim configuration also relies on [Vundle][vundle], which should be
+installed automatically. If not, you can install Vundle manually:
 
     $ cd ~/.vim/bundle
     $ git clone https://github.com/gmarik/Vundle.vim.git
