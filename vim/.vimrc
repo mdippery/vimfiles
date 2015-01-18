@@ -98,23 +98,14 @@ if has("gui_running")
         let &colorcolumn=join(range(81,999),",")
     endif
 
+    set number                      " show line numbers
+
     set cursorline                  " highlight current line
     set laststatus=2                " show status bar
 
     set guioptions-=T               " remove toolbar
     set guioptions-=r               " remove right scrollbar
     set guioptions-=L               " remove left scrollbar
-
-    if exists('+relativenumber')
-        set relativenumber          " show line numbers
-        " Show absolute line numbers in Insert mode
-        autocmd InsertEnter * :set norelativenumber
-        autocmd InsertEnter * :set number
-        autocmd InsertLeave * :set nonumber
-        autocmd InsertLeave * :set relativenumber
-    else
-        set number                  " show line numbers
-    endif
 
     set guifont=Sauce\ Code\ Powerline:h14
     set background=dark
