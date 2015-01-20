@@ -34,6 +34,7 @@ Plugin 'elixir-lang/vim-elixir'
 Plugin 'guns/vim-clojure-static'
 Plugin 'Keithbsmiley/swift.vim'
 Plugin 'raichoo/haskell-vim'
+Plugin 'sophacles/vim-bundle-mako'
 Plugin 'tpope/vim-markdown'
 
 " Color themes
