@@ -38,17 +38,6 @@ Plugin 'sophacles/vim-bundle-mako'
 Plugin 'tpope/vim-markdown'
 
 " Color themes
-Plugin 'ajh17/Spacegray.vim'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'freeo/vim-kalisi'
-Plugin 'jeetsukumaran/vim-nefertiti'
-Plugin 'junegunn/seoul256.vim'
-Plugin 'Junza/Spink'
-Plugin 'nice/sweater'
-Plugin 'noahfrederick/vim-hemisu'
-Plugin 'reedes/vim-colors-pencil'
-Plugin 'vim-scripts/peaksea'
-Plugin 'whatyouhide/vim-gotham'
-Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}
 
 call vundle#end()
