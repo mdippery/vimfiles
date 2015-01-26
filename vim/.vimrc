@@ -29,7 +29,7 @@ set tags+=.tags                     " point ctags to ./.tags file
 set splitbelow                      " open horizontal split below current
 set splitright                      " open vertical split to right of current
 
-let mapleader = "\<Space>"          " Map Space to leader key
+let mapleader = ";"
 
 
 
