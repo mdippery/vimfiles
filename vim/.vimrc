@@ -122,7 +122,7 @@ if has("gui_gtk2")
     " (under CentOS 6/KDE4) unless the values were
     " set explicitly; otherwise, Gvim takes on the
     " dimensions of the terminal it was launched from.
-    set lines=54
+    set lines=53
     set columns=96
 
     set guioptions-=m               " remove menu
