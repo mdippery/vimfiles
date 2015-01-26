@@ -1,2 +1,2 @@
-nnoremap <leader>h "=strftime("%H:%M %z")<CR>P
-inoremap <leader>h <C-R>=strftime("%H:%M %z")<CR>
+nnoremap <Leader>bh "=strftime("%H:%M %z")<CR>P
+inoremap <Leader>bh <C-R>=strftime("%H:%M %z")<CR>
