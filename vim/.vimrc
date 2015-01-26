@@ -34,32 +34,35 @@ set splitright                      " open vertical split to right of current
 " Key Mappings
 " ------------------------------------------------------------
 
-""" jj to enter normal mode from insert mode
+" jj to enter normal mode from insert mode
 inoremap jj <Esc>
 
-""" Tap space to enter commands
+" Tap space to enter commands
 nnoremap <Space> :
 
-""" yank to end of line
+" yank to end of line
 nnoremap Y y$
 
-""" K to insert a new line
+" K to insert a new line
 nnoremap K r<CR><Esc>
 
-""" Keep selection region when indenting
+" Keep selection region when indenting
 vnoremap < <gv
 vnoremap > >gv
 
-""" Toggle between relative and absolute numbers
+" Remove search highlighting (until next search)
+nnoremap <Leader>h :noh<CR>
+
+" Toggle between relative and absolute numbers
 nnoremap <C-n> :call LineNumberToggle()<CR>
 
-""" Improved split creation/navigation
+" Improved split creation/navigation
 nnoremap <C-j> <C-w><C-j>
 nnoremap <C-k> <C-w><C-k>
 nnoremap <C-l> <C-w><C-l>
 nnoremap <C-h> <C-w><C-h>
 
-""" Improved buffer navigation
+" Improved buffer navigation
 nnoremap H :bn<CR>
 nnoremap L :bp<CR>
 nnoremap Q :b#<CR>
