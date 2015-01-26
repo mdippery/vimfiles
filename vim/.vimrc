@@ -29,8 +29,6 @@ set tags+=.tags                     " point ctags to ./.tags file
 set splitbelow                      " open horizontal split below current
 set splitright                      " open vertical split to right of current
 
-let mapleader = ";"
-
 
 
 " Key Mappings
@@ -68,7 +66,7 @@ nnoremap <C-h> <C-w><C-h>
 nnoremap H :bn<CR>
 nnoremap L :bp<CR>
 nnoremap Q :b#<CR>
-nnoremap : :ls<CR>:b
+nnoremap ; :ls<CR>:b
 nnoremap <Leader>w :bd<CR>
 
 
