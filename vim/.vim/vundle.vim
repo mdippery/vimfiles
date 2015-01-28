@@ -21,7 +21,6 @@ Plugin 'mileszs/ack.vim'       " Use ack from Vim
 Plugin 'rhysd/clever-f.vim'    " Saner f/F/t/T mappings
 Plugin 'tpope/vim-commentary'  " Quickly (un)comment blocks of text
 Plugin 'tpope/vim-fugitive'    " Use git from Vim
-Plugin 'tpope/vim-surround'    " Surround text in other text
 Plugin 'tpope/vim-vinegar'     " Enhance netrw
 
 " Language plugins
