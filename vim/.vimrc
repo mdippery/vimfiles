@@ -51,7 +51,7 @@ vnoremap < <gv
 vnoremap > >gv
 
 " Remove search highlighting (until next search)
-nnoremap <silent> <Esc> :noh<CR>
+nnoremap <Leader>h :noh<CR>
 
 " Toggle between relative and absolute numbers
 nnoremap <C-n> :call LineNumberToggle()<CR>
