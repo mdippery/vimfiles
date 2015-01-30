@@ -40,6 +40,7 @@ Plugin 'sophacles/vim-bundle-mako'
 Plugin 'tpope/vim-markdown'
 
 " Color themes
+Plugin '844196/lightline-badwolf.vim'
 Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()

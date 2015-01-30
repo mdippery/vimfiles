@@ -1,5 +1,5 @@
 let g:lightline = {
-    \ 'colorscheme': 'powerline',
+    \ 'colorscheme': 'badwolf',
     \ 'active': {
     \   'right': [ ['lineinfo'], ['percent'], ['filetype'] ],
     \ },
