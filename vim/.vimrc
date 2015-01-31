@@ -120,19 +120,19 @@ if has("gui_running")
     set guifont=Sauce\ Code\ Powerline:h14
     set background=dark
     colors badwolf
-endif
 
-if has("gui_gtk2")
-    " Lines and columns weren't being set correctly
-    " (under CentOS 6/KDE4) unless the values were
-    " set explicitly; otherwise, Gvim takes on the
-    " dimensions of the terminal it was launched from.
-    set lines=53
-    set columns=96
+    if has("gui_gtk2")
+        " Lines and columns weren't being set correctly
+        " (under CentOS 6/KDE4) unless the values were
+        " set explicitly; otherwise, Gvim takes on the
+        " dimensions of the terminal it was launched from.
+        set lines=53
+        set columns=96
 
-    set guioptions-=m               " remove menu
+        set guioptions-=m               " remove menu
 
-    set guifont=Source\ Code\ Pro\ Medium\ 12
+        set guifont=Source\ Code\ Pro\ Medium\ 12
+    endif
 endif
 
 if has("gui_macvim")
