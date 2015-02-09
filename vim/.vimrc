@@ -129,7 +129,7 @@ if has("gui_running")
         set lines=53
         set columns=96
 
-        set guioptions-=m               " remove menu
+        set guioptions-=m           " remove menu
 
         set guifont=Source\ Code\ Pro\ Medium\ 12
     endif
