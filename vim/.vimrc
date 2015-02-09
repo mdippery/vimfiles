@@ -22,6 +22,7 @@ set shiftwidth=4                    " use 4 spaces for auto-indents
 set expandtab                       " use spaces instead of tabs
 set autoindent                      " autoindent code
 set shiftround                      " indent to next tab stop multiple
+set backspace=indent,eol,start      " allow deleting auto-indentation
 
 set showmatch                       " show matching brackets
 set tags+=.tags                     " point ctags to ./.tags file
