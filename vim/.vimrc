@@ -128,7 +128,7 @@ if has("gui_running")
         " set explicitly; otherwise, Gvim takes on the
         " dimensions of the terminal it was launched from.
         set lines=53
-        set columns=96
+        set columns=144
 
         set guioptions-=m           " remove menu
 
