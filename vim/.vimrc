@@ -97,12 +97,9 @@ endif
 " GUI Settings
 " ------------------------------------------------------------
 
-if has("gui_running") || !exists('+colorcolumn')
-    source ~/.vim/lightline.vim
-    set laststatus=2                " show status bar
-endif
-
 if has("gui_running")
+    source ~/.vim/lightline.vim
+
     set lines=999
     set columns=96
 
@@ -113,6 +110,7 @@ if has("gui_running")
     set number                      " show line numbers
 
     set cursorline                  " highlight current line
+    set laststatus=2                " show status bar
 
     set guioptions-=T               " remove toolbar
     set guioptions-=r               " remove right scrollbar
