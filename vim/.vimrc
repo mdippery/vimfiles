@@ -118,7 +118,7 @@ if has("gui_running")
 
     set guifont=Sauce\ Code\ Powerline:h14
     set background=dark
-    colors badwolf
+    colors solarized
 
     if has("gui_gtk2")
         " Lines and columns weren't being set correctly
