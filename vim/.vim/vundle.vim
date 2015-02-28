@@ -14,6 +14,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " General plugins
 Plugin 'a.vim'
+Plugin 'duff/vim-bufonly'
 Plugin 'godlygeek/tabular'
 Plugin 'itchyny/lightline.vim'
 Plugin 'jamessan/vim-gnupg'
