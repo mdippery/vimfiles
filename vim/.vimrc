@@ -66,7 +66,7 @@ nnoremap <C-h> <C-w><C-h>
 " Improved buffer navigation
 nnoremap H :bn<CR>
 nnoremap L :bp<CR>
-nnoremap Q :b#<CR>
+nnoremap <Tab> :b#<CR>
 nnoremap ; :ls<CR>:b
 nnoremap <Leader>w :bd<CR>
 
