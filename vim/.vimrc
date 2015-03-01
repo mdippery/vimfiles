@@ -55,7 +55,10 @@ vnoremap > >gv
 nnoremap <silent> <Leader>h :noh<CR>
 
 " Toggle between relative and absolute numbers
-nnoremap <C-n> :call LineNumberToggle()<CR>
+nnoremap <C-n> :call ToggleLineNumbers()<CR>
+
+" Show/hide invisible characters
+nnoremap <C-i> :call ToggleInvisibles()<CR>
 
 " Improved split creation/navigation
 nnoremap <C-j> <C-w><C-j>
@@ -81,7 +84,7 @@ nmap <silent> Sr <Plug>(operator-surround-replace)
 " ------------------------------------------------------------
 
 if exists('+relativenumber')
-    function! LineNumberToggle()
+    function! ToggleLineNumbers()
         if (&relativenumber == 1)
             set norelativenumber
             set number
@@ -91,6 +94,14 @@ if exists('+relativenumber')
         endif
     endfunc
 endif
+
+function! ToggleInvisibles()
+    if (&list == 1)
+        set nolist
+    else
+        set list
+    end
+endfunc
 
 
 
