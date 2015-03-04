@@ -43,5 +43,6 @@ Plugin 'tpope/vim-markdown'
 " Color themes
 Plugin '844196/lightline-badwolf.vim'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'jeetsukumaran/vim-nefertiti'
 
 call vundle#end()
