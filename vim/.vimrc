@@ -38,8 +38,9 @@ set splitright                      " open vertical split to right of current
 " jj to enter normal mode from insert mode
 inoremap jj <Esc>
 
-" Tap space to enter commands
-nnoremap <Space> :
+" Page down/up using Space
+nnoremap <Space>   <C-f>
+nnoremap <S-Space> <C-b>
 
 " yank to end of line
 nnoremap Y y$
