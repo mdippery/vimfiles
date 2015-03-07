@@ -47,6 +47,10 @@ nnoremap Y y$
 " K to insert a new line
 nnoremap K r<CR><Esc>
 
+" Insert new lines without leaving normal mode
+nnoremap <S-Enter> O<Esc>j
+nnoremap <CR>      o<Esc>k
+
 " Keep selection region when indenting
 vnoremap < <gv
 vnoremap > >gv
