@@ -14,11 +14,11 @@ Plugin 'gmarik/Vundle.vim'
 
 " General plugins
 Plugin 'a.vim'
-Plugin 'duff/vim-bufonly'
 Plugin 'godlygeek/tabular'
 Plugin 'itchyny/lightline.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'rhysd/clever-f.vim'
+Plugin 'schickling/vim-bufonly'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-vinegar'
