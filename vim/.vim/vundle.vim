@@ -45,5 +45,6 @@ Plugin 'tpope/vim-markdown'
 Plugin '844196/lightline-badwolf.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'jeetsukumaran/vim-nefertiti'
+Plugin 'romainl/Apprentice'
 
 call vundle#end()
