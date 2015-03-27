@@ -27,6 +27,9 @@ set backspace=indent,eol,start      " allow deleting auto-indentation
 set showmatch                       " show matching brackets
 set tags+=.tags                     " point ctags to ./.tags file
 
+set wildmode=longest,list,full      " complete file names like bash first
+set wildmenu                        " enable bash-like file completion
+
 set splitbelow                      " open horizontal split below current
 set splitright                      " open vertical split to right of current
 
