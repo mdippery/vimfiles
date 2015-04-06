@@ -77,11 +77,6 @@ nnoremap Q :b#<CR>
 nnoremap ; :ls<CR>:b
 nnoremap <Leader>w :bd<CR>
 
-" vim-operator-surround mappings
-nmap <silent> Sa <Plug>(operator-surround-append)
-nmap <silent> Sd <Plug>(operator-surround-delete)
-nmap <silent> Sr <Plug>(operator-surround-replace)
-
 
 
 " Functions
