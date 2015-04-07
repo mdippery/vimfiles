@@ -62,7 +62,7 @@ nnoremap <silent> <Leader>h :noh<CR>
 nnoremap <C-n> :call ToggleLineNumbers()<CR>
 
 " Show/hide invisible characters
-nnoremap <C-i> :call ToggleInvisibles()<CR>
+nnoremap <Tab> :call ToggleInvisibles()<CR>
 
 " Improved split creation/navigation
 nnoremap <C-j> <C-w><C-j>
