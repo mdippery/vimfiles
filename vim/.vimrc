@@ -141,6 +141,10 @@ if has("gui_running")
         set guioptions-=m           " remove menu
 
         set guifont=Source\ Code\ Pro\ Medium\ 12
+
+        " Paste/copy from/to system clipboard
+        nnoremap <Insert>   "+p
+        vnoremap <S-Insert> "+y
     endif
 endif
 
