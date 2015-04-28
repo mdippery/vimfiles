@@ -21,6 +21,7 @@ Plugin 'rhysd/clever-f.vim'
 Plugin 'schickling/vim-bufonly'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-vinegar'
 
 " Language plugins
