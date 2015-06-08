@@ -13,7 +13,6 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " General plugins
-Plugin 'a.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'itchyny/lightline.vim'
 Plugin 'jeetsukumaran/vim-filebeagle'
