@@ -1,4 +1,4 @@
-source ~/.vim/vundle.vim
+source ~/.vim/bundle.vim
 
 syntax on
 filetype plugin indent on
