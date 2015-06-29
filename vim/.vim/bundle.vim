@@ -36,6 +36,7 @@ Plugin 'keith/swift.vim'
 Plugin 'mdippery/nginx.vim'
 Plugin 'raichoo/haskell-vim'
 Plugin 'sophacles/vim-bundle-mako'
+Plugin 'timcharper/textile.vim'
 Plugin 'tpope/vim-markdown'
 
 " Color themes
