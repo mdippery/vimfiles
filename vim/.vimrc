@@ -102,6 +102,16 @@ function! ToggleInvisibles()
     end
 endfunc
 
+if has("gui_running") && has("gui_gtk2")
+    function! ToggleWindowSize()
+        if (&columns == 192)
+            set columns=144
+        else
+            set columns=192
+        end
+    endfun
+endif
+
 
 
 " GUI Settings
@@ -145,6 +155,9 @@ if has("gui_running")
         " Paste/copy from/to system clipboard
         nnoremap <Insert>   "+p
         vnoremap <S-Insert> "+y
+
+        " Toggle window size
+        nnoremap <Leader>- :call ToggleWindowSize()<CR>
     endif
 endif
 
