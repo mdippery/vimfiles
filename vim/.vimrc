@@ -77,6 +77,9 @@ nnoremap <Tab> :b#<CR>
 nnoremap ; :ls<CR>:b
 nnoremap <Leader>w :bd<CR>
 
+" Copy entire file
+nnoremap <Leader>A ggVG"+y
+
 
 
 " Functions
