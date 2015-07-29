@@ -94,7 +94,7 @@ if exists('+relativenumber')
             set nonumber
             set relativenumber
         endif
-    endfunc
+    endfunction
 endif
 
 function! ToggleInvisibles()
@@ -102,8 +102,8 @@ function! ToggleInvisibles()
         set nolist
     else
         set list
-    end
-endfunc
+    endif
+endfunction
 
 
 

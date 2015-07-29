@@ -32,5 +32,5 @@ function! ToggleWindowSize()
         set columns=144
     else
         set columns=192
-    end
-endfun
+    endif
+endfunction
