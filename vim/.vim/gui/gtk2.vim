@@ -14,11 +14,6 @@ set guioptions-=m           " remove menu
 " Key Mappings
 " ------------------------------------------------------------
 
-" Paste/copy from/to system clipboard
-nnoremap <Insert> "+p
-inoremap <Insert> "+p
-vnoremap <Insert> "+y
-
 " Toggle window size
 nnoremap <Leader>- :call ToggleWindowSize()<CR>
 
