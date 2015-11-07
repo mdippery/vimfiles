@@ -1,4 +1,4 @@
 setlocal softtabstop=2
 setlocal shiftwidth=2
-setlocal textwidth=78
 setlocal formatoptions+=t
+setlocal textwidth=78
