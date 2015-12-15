@@ -29,6 +29,7 @@ Plugin 'tpope/vim-surround'
 " Language plugins
 Plugin 'chase/vim-ansible-yaml'
 Plugin 'chrisbra/csv.vim'
+Plugin 'dag/vim-fish'
 Plugin 'darfink/vim-plist'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'elzr/vim-json'
