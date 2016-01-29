@@ -8,8 +8,8 @@ set nowrap                          " disable line wrapping
 set hidden                          " hides buffers instead of closing them
 set laststatus=0                    " disable status line
 
-set directory=$HOME/.vim/swap       " set swap directory
-set backupdir=$HOME/.vim/backup     " set backup directory
+set directory=$HOME/.vim/.swap      " set swap directory
+set backupdir=$HOME/.vim/.backup    " set backup directory
 set noswapfile                      " disable swap file creation
 set nobackup                        " disable backup creation
 set nowritebackup                   " disable atomic saves
