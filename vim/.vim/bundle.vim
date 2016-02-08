@@ -23,6 +23,7 @@ Plugin 'NLKNguyen/copy-cut-paste.vim'
 Plugin 'rhysd/clever-f.vim'
 Plugin 'schickling/vim-bufonly'
 Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-eunuch'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 
