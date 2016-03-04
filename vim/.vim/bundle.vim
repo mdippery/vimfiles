@@ -28,6 +28,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 
 " Language plugins
+Plugin 'fountain.vim'
 Plugin 'chase/vim-ansible-yaml'
 Plugin 'chrisbra/csv.vim'
 Plugin 'dag/vim-fish'
