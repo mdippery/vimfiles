@@ -82,6 +82,9 @@ nnoremap <Leader>w :bd<CR>
 " Copy entire file
 nnoremap <Leader>A ggVG"+y
 
+" Edit a path saved to the clipboard
+nnoremap <Leader>E :e <C-r>+
+
 
 
 " Functions
