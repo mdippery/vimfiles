@@ -41,7 +41,7 @@ set splitright                      " open vertical split to right of current
 " jj to enter normal mode from insert mode
 inoremap jj <Esc>
 
-" ;; to enter normal mode from insert mode
+" ;; to enter normal mode from visual mode
 vnoremap ;; <Esc>
 
 " Tap space to save
