@@ -96,7 +96,7 @@ if exists('+relativenumber')
             set norelativenumber
             set number
         else
-            set nonumber
+            set number
             set relativenumber
         endif
     endfunction
