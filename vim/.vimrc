@@ -85,6 +85,9 @@ nnoremap <Leader>A ggVG"+y
 " Edit a path saved to the clipboard
 nnoremap <Leader>E :e <C-r>+
 
+" Show full path to file
+nnoremap <C-g> :echo expand('%:p')<CR>
+
 
 
 " Functions
