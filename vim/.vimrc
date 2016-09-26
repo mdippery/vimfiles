@@ -61,10 +61,10 @@ vnoremap > >gv
 nnoremap <silent> <Leader>h :noh<CR>
 
 " Toggle between relative and absolute numbers
-nnoremap <C-n> :call ToggleLineNumbers()<CR>
+nnoremap <silent> <C-n> :call ToggleLineNumbers()<CR>
 
 " Show/hide invisible characters
-nnoremap <F2> :call ToggleInvisibles()<CR>
+nnoremap <silent> <F2> :call ToggleInvisibles()<CR>
 
 " Improved split creation/navigation
 nnoremap <C-j> <C-w><C-j>
