@@ -47,6 +47,10 @@ vnoremap ;; <Esc>
 " Tap space to save
 nnoremap <Space> :w<CR>
 
+" H and L to move to beginning and end of line
+nnoremap H ^
+nnoremap L $
+
 " yank to end of line
 nnoremap Y y$
 
@@ -73,8 +77,6 @@ nnoremap <C-l> <C-w><C-l>
 nnoremap <C-h> <C-w><C-h>
 
 " Improved buffer navigation
-nnoremap H :bn<CR>
-nnoremap L :bp<CR>
 nnoremap <Tab> :b#<CR>
 nnoremap ; :ls<CR>:b
 nnoremap <Leader>w :bd<CR>
