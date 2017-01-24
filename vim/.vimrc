@@ -48,8 +48,8 @@ vnoremap ;; <Esc>
 nnoremap <Space> :w<CR>
 
 " H and L to move to beginning and end of line
-nnoremap H ^
-nnoremap L $
+nnoremap HH ^
+nnoremap LL $
 
 " yank to end of line
 nnoremap Y y$
