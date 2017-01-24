@@ -3,6 +3,8 @@ source ~/.vim/bundle.vim
 syntax on
 filetype plugin indent on
 
+set timeoutlen=250                  " delay before executing ambiguous keymap
+
 set vb                              " use visual bell
 set nowrap                          " disable line wrapping
 set hidden                          " hides buffers instead of closing them
