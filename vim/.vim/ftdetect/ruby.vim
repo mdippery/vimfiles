@@ -5,3 +5,4 @@ autocmd BufNewFile,BufRead *.podspec setfiletype ruby
 autocmd BufNewFile,BufRead .gemrc setfiletype yaml
 autocmd BufNewFile,BufRead *.tt setfiletype ruby
 autocmd BufNewFile,BufRead *.treetop setfiletype ruby
+autocmd BufNewFile,BufRead *.god setfiletype ruby
