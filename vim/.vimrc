@@ -36,6 +36,10 @@ set splitbelow                      " open horizontal split below current
 set splitright                      " open vertical split to right of current
 
 
+" Use relative paths in buffer list
+autocmd BufReadPost * silent! lcd .
+
+
 
 " Key Mappings
 " ------------------------------------------------------------
