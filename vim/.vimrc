@@ -19,8 +19,8 @@ set nowritebackup                   " disable atomic saves
 set autoread                        " auto reload externally-edited files
 
 set tabstop=8                       " draw tabs with 8 spaces
-set softtabstop=4                   " set soft tab of 4 spaces
-set shiftwidth=4                    " use 4 spaces for auto-indents
+set softtabstop=2                   " set soft tab of 4 spaces
+set shiftwidth=2                    " use 4 spaces for auto-indents
 set expandtab                       " use spaces instead of tabs
 set autoindent                      " autoindent code
 set shiftround                      " indent to next tab stop multiple
