@@ -96,13 +96,8 @@ nnoremap <Leader>E :e <C-r>+
 " Show full path to file
 nnoremap <C-g> :echo expand('%:p')<CR>
 
-" Remap cut-copy-paste keybindings
-let g:copy_cut_paste_no_mappings = 1
-nmap yc <Plug>CCP_CopyLine
-vmap yc <Plug>CCP_CopyText
-nmap yx <Plug>CCP_CutLine
-vmap yx <Plug>CCP_CutText
-nmap yv <Plug>CCP_PasteText
+" Unmap ex mode
+nnoremap Q <Nop>
 
 
 
