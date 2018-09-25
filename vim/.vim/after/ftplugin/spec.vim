@@ -1,1 +1,1 @@
-autocmd FileType spec setlocal commentstring=#\ %s
+setlocal commentstring=#\ %s
