@@ -1,3 +1,12 @@
+function GetColumns()
+  let screen_width = split(system("screen-size"), "x")[0]
+  if screen_width == 2560
+    return 192
+  else
+    return 96
+  endif
+endfunction
+
 source ~/.vim/lightline.vim
 
 set guifont=Sauce\ Code\ Powerline:h14
@@ -5,7 +14,7 @@ set background=dark
 colors base16-ocean
 
 set lines=999
-set columns=96
+let &columns=GetColumns()
 
 set number                          " show line numbers
 
@@ -26,10 +35,4 @@ if has("gui_gtk2")
     source ~/.vim/gui/gtk2.vim
 elseif has("gui_macvim")
     source ~/.vim/gui/macvim.vim
-endif
-
-
-
-if filereadable(expand("~/.vim/gui.user.vim"))
-  source ~/.vim/gui.user.vim
 endif
