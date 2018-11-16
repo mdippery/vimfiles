@@ -27,3 +27,9 @@ if has("gui_gtk2")
 elseif has("gui_macvim")
     source ~/.vim/gui/macvim.vim
 endif
+
+
+
+if filereadable(expand("~/.vim/gui.user.vim"))
+  source ~/.vim/gui.user.vim
+endif
