@@ -30,6 +30,7 @@ Plugin 'yegappan/grep'
 " Language plugins
 Plugin 'django.vim'
 Plugin 'fountain.vim'
+Plugin 'cespare/vim-toml'
 Plugin 'chase/vim-ansible-yaml'
 Plugin 'dag/vim-fish'
 Plugin 'derekwyatt/vim-scala'
