@@ -35,6 +35,9 @@ set wildmenu                        " enable bash-like file completion
 set splitbelow                      " open horizontal split below current
 set splitright                      " open vertical split to right of current
 
+set mouse=                          " Disable mouse
+set ttymouse=                       " Disable mouse
+
 
 " Use relative paths in buffer list
 autocmd BufReadPost * silent! lcd .
