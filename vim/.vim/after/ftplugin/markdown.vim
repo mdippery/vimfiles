@@ -5,6 +5,6 @@ nnoremap <Leader>M :call SwitchToUnwrappedMarkdown()<CR>
 
 function! SwitchToUnwrappedMarkdown()
     set textwidth=0
-    nnoremap j gj
-    nnoremap k gk
+    nnoremap <buffer> j gj
+    nnoremap <buffer> k gk
 endfunction
