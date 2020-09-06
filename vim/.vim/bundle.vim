@@ -26,6 +26,7 @@ Plugin 'schickling/vim-bufonly'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-eunuch'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-speeddating'
 Plugin 'tpope/vim-surround'
 
 " Language plugins
