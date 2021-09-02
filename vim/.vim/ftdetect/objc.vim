@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *.m set filetype=objc
+autocmd BufNewFile,BufRead *.m setfiletype objc
