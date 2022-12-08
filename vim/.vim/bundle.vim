@@ -14,6 +14,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " General plugins
 Plugin 'Bexec'
+Plugin 'arouene/vim-ansible-vault'
 Plugin 'godlygeek/tabular'
 Plugin 'henrik/vim-indexed-search'
 Plugin 'itchyny/lightline.vim'
