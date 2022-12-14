@@ -132,6 +132,10 @@ endfunction
 " GUI Settings
 " ------------------------------------------------------------
 
+if exists('$TMUX')
+  set background=dark
+endif
+
 " Why manually load ~/.vim/gui.vim instead of just using
 " ~/.gvimrc? Some plugins have settings that rely on being
 " loaded and set earlier than ~/.gvimrc is loaded. Manually
