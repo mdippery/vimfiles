@@ -15,9 +15,9 @@ nnoremap <Leader>- :call ToggleWindowSize()<CR>
 " ------------------------------------------------------------
 
 function! ToggleWindowSize()
-    if (&columns == 144)
+    if (&columns == 192)
         set columns=96
     else
-        set columns=144
+        set columns=192
     endif
 endfunction
