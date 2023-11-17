@@ -1,6 +1,6 @@
 " Install Vundle if it is not already installed
 if !isdirectory(expand("~/.vim/bundle/Vundle.vim"))
-    silent !git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    silent !git clone -o origin https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 endif
 
 set nocompatible
