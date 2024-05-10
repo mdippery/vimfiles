@@ -14,6 +14,7 @@ set laststatus=0                    " disable status line
 
 set directory=$HOME/.vim/.swap      " set swap directory
 set backupdir=$HOME/.vim/.backup    " set backup directory
+set viminfo+=n$HOME/.vim/.viminfo   " set viminfo file path
 set noswapfile                      " disable swap file creation
 set nobackup                        " disable backup creation
 set nowritebackup                   " disable atomic saves
