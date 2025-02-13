@@ -41,6 +41,8 @@ set splitright                      " open vertical split to right of current
 set mouse=                          " Disable mouse
 set ttymouse=                       " Disable mouse
 
+" Use LaTeX syntax highlighting by default
+let g:tex_flavor = "latex"
 
 " Use relative paths in buffer list
 autocmd BufReadPost * silent! lcd .
