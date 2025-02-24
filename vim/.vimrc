@@ -1,5 +1,3 @@
-source ~/.vim/bundle.vim
-
 syntax on
 filetype plugin indent on
 

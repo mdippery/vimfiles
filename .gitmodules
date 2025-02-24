@@ -1,0 +1,123 @@
+[submodule "vim/.vim/pack/colors/start/lightline"]
+	path = vim/.vim/pack/colors/start/lightline
+	url = https://github.com/itchyny/lightline.vim.git
+[submodule "vim/.vim/pack/colors/start/lightline-badwolf"]
+	path = vim/.vim/pack/colors/start/lightline-badwolf
+	url = https://github.com/844196/lightline-badwolf.vim.git
+[submodule "vim/.vim/pack/colors/start/vim-colors-solarized"]
+	path = vim/.vim/pack/colors/start/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/.vim/pack/plugins/start/bexec"]
+	path = vim/.vim/pack/plugins/start/bexec
+	url = https://github.com/fboender/bexec.git
+[submodule "vim/.vim/pack/plugins/start/vim-ansible-vault"]
+	path = vim/.vim/pack/plugins/start/vim-ansible-vault
+	url = https://github.com/arouene/vim-ansible-vault.git
+[submodule "vim/.vim/pack/plugins/start/tabular"]
+	path = vim/.vim/pack/plugins/start/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "vim/.vim/pack/plugins/start/vim-indexed-search"]
+	path = vim/.vim/pack/plugins/start/vim-indexed-search
+	url = https://github.com/henrik/vim-indexed-search.git
+[submodule "vim/.vim/pack/plugins/start/vim-filebeagle"]
+	path = vim/.vim/pack/plugins/start/vim-filebeagle
+	url = https://github.com/jeetsukumaran/vim-filebeagle.git
+[submodule "vim/.vim/pack/plugins/start/vim-indentwise"]
+	path = vim/.vim/pack/plugins/start/vim-indentwise
+	url = https://github.com/jeetsukumaran/vim-indentwise.git
+[submodule "vim/.vim/pack/plugins/start/vim-peekaboo"]
+	path = vim/.vim/pack/plugins/start/vim-peekaboo
+	url = https://github.com/junegunn/vim-peekaboo.git
+[submodule "vim/.vim/pack/plugins/start/ack"]
+	path = vim/.vim/pack/plugins/start/ack
+	url = https://github.com/mileszs/ack.vim.git
+[submodule "vim/.vim/pack/plugins/start/clever-f"]
+	path = vim/.vim/pack/plugins/start/clever-f
+	url = https://github.com/rhysd/clever-f.vim.git
+[submodule "vim/.vim/pack/plugins/start/vim-bufonly"]
+	path = vim/.vim/pack/plugins/start/vim-bufonly
+	url = https://github.com/schickling/vim-bufonly.git
+[submodule "vim/.vim/pack/plugins/start/vim-commentary"]
+	path = vim/.vim/pack/plugins/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "vim/.vim/pack/plugins/start/vim-eunuch"]
+	path = vim/.vim/pack/plugins/start/vim-eunuch
+	url = https://github.com/tpope/vim-eunuch.git
+[submodule "vim/.vim/pack/plugins/start/vim-fugitive"]
+	path = vim/.vim/pack/plugins/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/.vim/pack/plugins/start/vim-speeddating"]
+	path = vim/.vim/pack/plugins/start/vim-speeddating
+	url = https://github.com/tpope/vim-speeddating.git
+[submodule "vim/.vim/pack/plugins/start/vim-surround"]
+	path = vim/.vim/pack/plugins/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "vim/.vim/pack/syntax/start/django"]
+	path = vim/.vim/pack/syntax/start/django
+	url = https://github.com/vim-scripts/django.vim.git
+[submodule "vim/.vim/pack/syntax/start/fountain"]
+	path = vim/.vim/pack/syntax/start/fountain
+	url = https://github.com/vim-scripts/fountain.vim.git
+[submodule "vim/.vim/pack/syntax/start/vim-toml"]
+	path = vim/.vim/pack/syntax/start/vim-toml
+	url = https://github.com/cespare/vim-toml.git
+[submodule "vim/.vim/pack/syntax/start/vim-ansible-yaml"]
+	path = vim/.vim/pack/syntax/start/vim-ansible-yaml
+	url = https://github.com/chase/vim-ansible-yaml.git
+[submodule "vim/.vim/pack/syntax/start/vim-fish"]
+	path = vim/.vim/pack/syntax/start/vim-fish
+	url = https://github.com/dag/vim-fish.git
+[submodule "vim/.vim/pack/syntax/start/vim-scala"]
+	path = vim/.vim/pack/syntax/start/vim-scala
+	url = https://github.com/derekwyatt/vim-scala.git
+[submodule "vim/.vim/pack/syntax/start/dockerfile"]
+	path = vim/.vim/pack/syntax/start/dockerfile
+	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule "vim/.vim/pack/syntax/start/vim-elixir"]
+	path = vim/.vim/pack/syntax/start/vim-elixir
+	url = https://github.com/elixir-editors/vim-elixir.git
+[submodule "vim/.vim/pack/syntax/start/pgsql"]
+	path = vim/.vim/pack/syntax/start/pgsql
+	url = https://github.com/exu/pgsql.vim.git
+[submodule "vim/.vim/pack/syntax/start/vim-go"]
+	path = vim/.vim/pack/syntax/start/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "vim/.vim/pack/syntax/start/vim-jinja2-syntax"]
+	path = vim/.vim/pack/syntax/start/vim-jinja2-syntax
+	url = https://github.com/Glench/Vim-Jinja2-Syntax.git
+[submodule "vim/.vim/pack/syntax/start/vim-clojure-static"]
+	path = vim/.vim/pack/syntax/start/vim-clojure-static
+	url = https://github.com/guns/vim-clojure-static.git
+[submodule "vim/.vim/pack/syntax/start/vim-css3-syntax"]
+	path = vim/.vim/pack/syntax/start/vim-css3-syntax
+	url = https://github.com/hail2u/vim-css3-syntax.git
+[submodule "vim/.vim/pack/syntax/start/vim-terraform"]
+	path = vim/.vim/pack/syntax/start/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
+[submodule "vim/.vim/pack/syntax/start/swift"]
+	path = vim/.vim/pack/syntax/start/swift
+	url = https://github.com/keith/swift.vim.git
+[submodule "vim/.vim/pack/syntax/start/jenkinsfile-vim-syntax"]
+	path = vim/.vim/pack/syntax/start/jenkinsfile-vim-syntax
+	url = https://github.com/martinda/Jenkinsfile-vim-syntax.git
+[submodule "vim/.vim/pack/syntax/start/vim-systemd-syntax"]
+	path = vim/.vim/pack/syntax/start/vim-systemd-syntax
+	url = https://codeberg.org/Dokana/vim-systemd-syntax.git
+[submodule "vim/.vim/pack/syntax/start/nginx"]
+	path = vim/.vim/pack/syntax/start/nginx
+	url = git@github.com:mdippery/nginx.vim.git
+[submodule "vim/.vim/pack/syntax/start/haskell-vim"]
+	path = vim/.vim/pack/syntax/start/haskell-vim
+	url = https://github.com/neovimhaskell/haskell-vim.git
+[submodule "vim/.vim/pack/syntax/start/groovy"]
+	path = vim/.vim/pack/syntax/start/groovy
+	url = https://github.com/rdolgushin/groovy.vim.git
+[submodule "vim/.vim/pack/syntax/start/textile"]
+	path = vim/.vim/pack/syntax/start/textile
+	url = https://github.com/timcharper/textile.vim.git
+[submodule "vim/.vim/pack/syntax/start/vim-markdown"]
+	path = vim/.vim/pack/syntax/start/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git
+[submodule "vim/.vim/pack/syntax/start/vim-python-pep8-indent"]
+	path = vim/.vim/pack/syntax/start/vim-python-pep8-indent
+	url = https://github.com/Vimjas/vim-python-pep8-indent.git
