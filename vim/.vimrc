@@ -102,6 +102,9 @@ nnoremap <Leader>E :e <C-r>+
 " Show full path to file
 nnoremap <C-g> :echo expand('%:p')<CR>
 
+" Show runtime path
+nnoremap <Leader>rt :new<Bar>put =split(&runtimepath, ',')<CR>
+
 " Unmap ex mode
 nnoremap Q <Nop>
 
