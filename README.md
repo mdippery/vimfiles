@@ -1,13 +1,15 @@
 My Vim configuration files. Installation requires [GNU Stow][stow]. It uses
-the [Vim 8 package manager][pack] to manage plugins, so the repository should
-be cloned with the `--recurse-submodules` option. To install:
+the [Vim 8 package manager][pack] to manage plugins, so you must initialize
+and update the repository's submodules after cloning. To install:
 
-    $ git clone --recurse-submodules https://github.com/mdippery/vimfiles.git .vimfiles
+    $ git clone https://github.com/mdippery/vimfiles.git .vimfiles
     $ cd .vimfiles
+    $ git submodule update --init
     $ stow vim
 
 To convert an existing repository to use [Vim 8 packages][pack], run:
 
+    $ git pull
     $ git submodule update --init
     $ rm -rf ~/.vim/bundle
 
