@@ -139,7 +139,7 @@ endfunction
 " ------------------------------------------------------------
 
 if exists('$TMUX')
-  set background=dark
+    set background=dark
 endif
 
 " Why manually load ~/.vim/gui.vim instead of just using
