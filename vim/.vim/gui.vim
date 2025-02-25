@@ -26,7 +26,9 @@ set guioptions-=r                   " remove right scrollbar
 set guioptions-=L                   " remove left scrollbar
 
 if exists('+colorcolumn')
-    let &colorcolumn=join(range(81,999),",")
+  " colorcolumn will never color more than 256 columns,
+  " so max out at column #336.
+  let &colorcolumn=join(range(81,336),",")
 endif
 
 
