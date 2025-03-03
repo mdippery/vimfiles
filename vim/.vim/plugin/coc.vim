@@ -1,2 +1,5 @@
-autocmd FileType javascript,typescript let g:coc_global_extensions = ['coc-tsserver']
-autocmd FileType javascript,typescript let b:coc_enabled = 1
+" Install Coc plugins
+let g:coc_global_extensions = ['coc-tsserver']
+
+" Disable CoC by default
+let b:coc_enabled = 0

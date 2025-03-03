@@ -48,9 +48,6 @@ let g:tex_flavor = "latex"
 " Don't automatically jump to first Ack match
 cnoreabbrev Ack Ack!
 
-" Disable CoC by default
-let b:coc_enabled = 0
-
 
 
 " Key Mappings
