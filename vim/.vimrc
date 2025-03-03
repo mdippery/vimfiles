@@ -48,6 +48,9 @@ let g:tex_flavor = "latex"
 " Don't automatically jump to first Ack match
 cnoreabbrev Ack Ack!
 
+" Install CoC Extensions
+let g:coc_global_extensions = ['coc-tsserver']
+
 
 
 " Key Mappings
