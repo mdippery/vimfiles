@@ -121,3 +121,6 @@
 [submodule "vim/.vim/pack/syntax/start/vim-python-pep8-indent"]
 	path = vim/.vim/pack/syntax/start/vim-python-pep8-indent
 	url = https://github.com/Vimjas/vim-python-pep8-indent.git
+[submodule "vim/.vim/pack/plugins/start/rename2"]
+	path = vim/.vim/pack/plugins/start/rename2
+	url = https://github.com/vim-scripts/Rename2.git
