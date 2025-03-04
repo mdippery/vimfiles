@@ -1,23 +1,15 @@
-My Vim configuration files. Installation requires [GNU Stow][stow]. It uses
-the [Vim 8 package manager][pack] to manage plugins, so you must initialize
-and update the repository's submodules after cloning. To install:
+My Vim configuration files. Installation requires [GNU Stow][stow].
+To install:
 
     $ git clone https://github.com/mdippery/vimfiles.git .vimfiles
     $ cd .vimfiles
-    $ git submodule update --init --recursive
     $ stow vim
 
-To convert an existing repository to use [Vim 8 packages][pack], run:
+This Vim configuration also relies on [Vundle][vundle], which should be
+installed automatically. If not, you can install Vundle manually:
 
-    $ git pull
-    $ git submodule update --init --recursive
-    $ rm -rf ~/.vim/bundle
+    $ cd ~/.vim/bundle
+    $ git clone https://github.com/VundleVim/Vundle.vim.git
 
-To update submodules to the latest versions, run:
-
-    $ git submodule update --remote --rebase
-
-and commit the changes to the repository.
-
-  [pack]: https://medium.com/@paulodiovani/installing-vim-8-plugins-with-the-native-pack-system-39b71c351fea
   [stow]: http://www.gnu.org/software/stow/
+  [vundle]: https://github.com/VundleVim/Vundle.vim
