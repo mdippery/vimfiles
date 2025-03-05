@@ -1,1 +1,1 @@
-nnoremap <Leader>je "=strftime("\\entry{%A}{%d}{%B}{%Y}")<CR>P
+nnoremap <Leader>je "=strftime("\\entry{%A}{%e}{%B}{%Y}")<CR>P
