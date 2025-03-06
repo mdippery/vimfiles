@@ -1,6 +1,6 @@
 function GetColumns()
   let screen_width = split(system("$HOME/.local/bin/screen-size"), "x")[0]
-  if screen_width == 2560
+  if screen_width >= 2560
     return 192
   else
     return 96
