@@ -1,28 +1,6 @@
-" Support Functions
-" ------------------------------------------------------------
-
-let s:screen_width=split(system("$HOME/.local/bin/screen-size"), "x")[0]
-
-function s:get_min_columns()
-  if s:screen_width >= 2560
-    return 192
-  else
-    return 96
-  endif
-endfunction
-
-function s:get_max_columns()
-  if s:screen_width >= 2560
-    return float2nr(s:get_min_columns() * 1.5)
-  else
-    return s:get_min_columns() * 2
-  endif
-endfunction
-
-
-
-" General Settings
-" ------------------------------------------------------------
+let s:screen_width = str2nr(split(system("$HOME/.local/bin/screen-size"), "x")[0])
+let s:min_columns = s:screen_width >= 2560 ? 192 : 96
+let s:max_columns = s:screen_width >= 2560 ? float2nr(s:min_columns * 1.5) : s:min_columns * 2
 
 source ~/.vim/lightline.vim
 
@@ -31,7 +9,7 @@ set background=dark
 colors base16-ocean
 
 set lines=999
-let &columns=s:get_min_columns()
+let &columns=s:min_columns
 
 set number                          " show line numbers
 
@@ -62,11 +40,7 @@ nnoremap <Leader>- :call ToggleWindowSize()<CR>
 " ------------------------------------------------------------
 
 function! ToggleWindowSize()
-    if (&columns == s:get_max_columns())
-        let &columns=s:get_min_columns()
-    else
-        let &columns=s:get_max_columns()
-    endif
+    let &columns = &columns == s:max_columns ? s:min_columns : s:max_columns
 endfunction
 
 
