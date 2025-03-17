@@ -1,11 +1,28 @@
-function GetColumns()
-  let screen_width = split(system("$HOME/.local/bin/screen-size"), "x")[0]
-  if screen_width >= 2560
+" Support Functions
+" ------------------------------------------------------------
+
+let s:screen_width=split(system("$HOME/.local/bin/screen-size"), "x")[0]
+
+function s:get_min_columns()
+  if s:screen_width >= 2560
     return 192
   else
     return 96
   endif
 endfunction
+
+function s:get_max_columns()
+  if s:screen_width >= 2560
+    return float2nr(s:get_min_columns() * 1.5)
+  else
+    return s:get_min_columns() * 2
+  endif
+endfunction
+
+
+
+" General Settings
+" ------------------------------------------------------------
 
 source ~/.vim/lightline.vim
 
@@ -14,7 +31,7 @@ set background=dark
 colors base16-ocean
 
 set lines=999
-let &columns=GetColumns()
+let &columns=s:get_min_columns()
 
 set number                          " show line numbers
 
@@ -32,6 +49,30 @@ if exists('+colorcolumn')
 endif
 
 
+
+" Key Mappings
+" ------------------------------------------------------------
+
+" Toggle window size
+nnoremap <Leader>- :call ToggleWindowSize()<CR>
+
+
+
+" Functions
+" ------------------------------------------------------------
+
+function! ToggleWindowSize()
+    if (&columns == s:get_max_columns())
+        let &columns=s:get_min_columns()
+    else
+        let &columns=s:get_max_columns()
+    endif
+endfunction
+
+
+
+" Additional GUI Settings
+" ------------------------------------------------------------
 
 if has("gui_gtk2")
     source ~/.vim/gui/gtk2.vim
