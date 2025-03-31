@@ -1,2 +1,5 @@
-nnoremap <Leader>es :!npx eslint --fix %<CR>
-nnoremap <Leader>T :!yarn run jest %<CR>
+command Eslint !npx eslint --fix %
+cnoreabbrev es Eslint
+
+command Jest !yarn run jest %
+cnoreabbrev jest Jest
