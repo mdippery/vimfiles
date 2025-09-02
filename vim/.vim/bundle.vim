@@ -56,6 +56,7 @@ Plugin 'rdolgushin/groovy.vim'
 Plugin 'timcharper/textile.vim'
 Plugin 'tpope/vim-markdown'
 Plugin 'Vimjas/vim-python-pep8-indent'
+Plugin 'zorab47/procfile.vim'
 
 " Color themes
 Plugin '844196/lightline-badwolf.vim'
