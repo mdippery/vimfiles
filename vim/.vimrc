@@ -11,6 +11,7 @@ set vb                              " use visual bell
 set nowrap                          " disable line wrapping
 set hidden                          " hides buffers instead of closing them
 set laststatus=0                    " disable status line
+set nojoinspaces                    " no double spaces after periods
 
 set directory=$HOME/.vim/.swap      " set swap directory
 set backupdir=$HOME/.vim/.backup    " set backup directory
