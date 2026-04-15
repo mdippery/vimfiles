@@ -48,6 +48,10 @@ autocmd BufReadPost * silent! lcd .
 " Use LaTeX syntax highlighting by default
 let g:tex_flavor = "latex"
 
+" Do not use my ripgrep config file because it specifies color=always
+let g:rg_binary = "rg"
+let g:rg_command = g:rg_binary .. " --no-config"
+
 " Don't automatically jump to first Ack match
 cnoreabbrev Ack Ack!
 
