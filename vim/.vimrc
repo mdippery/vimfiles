@@ -63,7 +63,7 @@ inoremap jj <Esc>
 vnoremap ;; <Esc>
 
 " Tap space to save
-nnoremap <Space> :w<CR>
+nnoremap <silent> <Space> :up<CR>
 
 " H and L to move to beginning and end of line
 nnoremap HH ^
