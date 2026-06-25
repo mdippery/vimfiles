@@ -1,2 +1,5 @@
-nnoremap <Leader>je "=strftime("\\entry{%A}{%-d}{%B}{%Y}")<CR>P
-nnoremap <Leader>jd Go<C-r>=strftime("\\input{%Y/%m/%d}")<CR><Esc>
+command JournalEntry put! =strftime('\entry{%A}{%-d}{%B}{%Y}')
+command JournalDay $put =strftime('\input{%Y/%m/%d}')
+
+cnoreabbrev je JournalEntry
+cnoreabbrev jd JournalDay
