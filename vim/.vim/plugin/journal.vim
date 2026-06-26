@@ -1,4 +1,4 @@
-command JournalEntry put! =strftime('\entry{%A}{%-d}{%B}{%Y}')
+command JournalEntry put! =strftime('\entry{%A}{%-d}{%B}{%Y}') | normal! jdd
 command JournalDay $put =strftime('\input{%Y/%m/%d}')
 
 cnoreabbrev je JournalEntry
